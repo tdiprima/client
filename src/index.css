@@ -1,36 +1,36 @@
 body {
-  background: #eee;
-  font-family: "Arial"
+    background: #eee;
+    font-family: "Arial"
 }
 
-#main h1{
+#main h1 {
     color: #444;
     text-align: center;
 }
 
-#main{
+#main {
     padding: 0px;
     box-sizing: border-box;
     width: 60%;
     height: 100%;
 }
 
-#book-list{
+#book-list {
     padding: 0;
 }
 
-#book-list li{
+#book-list li {
     display: inline-block;
     margin: 12px;
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #880E4F;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     color: #880E4F;
 }
 
-form{
+form {
     background: #fff;
     padding: 20px;
     position: fixed;
@@ -39,24 +39,24 @@ form{
     width: 400px;
 }
 
-form .field{
+form .field {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
 
-form label{
+form label {
     text-align: right;
     padding: 6px;
 }
 
-form input, form select{
+form input, form select {
     margin: 4px 0;
     padding: 6px;
     box-sizing: border-box;
 }
 
-form button{
+form button {
     color: #fff;
     font-size: 2em;
     background: #AD1457;
@@ -69,7 +69,7 @@ form button{
     left: 10px;
 }
 
-#book-details{
+#book-details {
     position: fixed;
     top: 0;
     right: 0;
@@ -78,7 +78,7 @@ form button{
     background: #AD1457;
     padding: 30px;
     overflow: auto;
-    box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
+    box-shadow: -2px -3px 5px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
     color: #fff;
 }
